@@ -20,12 +20,12 @@ public class Department {
 
     @Id
     @Column(name = "departmentId")
-    private String  deptId;
+    private String deptId;
 
     @Column
-    private String  departmentName;
+    private String departmentName;
 
     @Column
-    private String  departmentAddress;
+    private String departmentAddress;
 
 }
