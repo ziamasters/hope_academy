@@ -12,7 +12,9 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Account {
+
+//This is the modify class of account
+public class Account  {
 
     @Id
     @Column
