@@ -16,8 +16,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Department {
+public class EngineeringDepartment {
 
+    //This is the modified class
+    
     @Id
     @Column(name = "departmentId")
     private String deptId;
